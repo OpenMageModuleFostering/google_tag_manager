@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Google_Tag_Manager",
+    "type": "magento-module",
+    "license": "EULA",
+    "homepage": "",
+    "description": "A simple extension that will allow you to add Google Tag Manager script.",
+    "authors": [
+    {
+        "name": "eGlobe IT Solutions",
+        "email": "hello@eglobeits.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

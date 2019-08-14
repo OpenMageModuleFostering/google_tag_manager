@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Google_Tag_Manager</name>
+    <version>0.1.1</version>
+    <stability>stable</stability>
+    <license uri="http://ecommerce.eglobeits.com/license.txt">EULA</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>A simple extension that will allow you to add Google Tag Manager script.</summary>
+    <description>The Google Tag Manager extension from eGlobe IT Solutions is the perfect tool for those looking to install Google&#x2019;s free tag management solution on their Magento site, regardless of which version or edition of Magento they currently use. With a few simple clicks and configurations, this extension creates a site-wide implementation of Google Tag Manager and a fully-functioning data layer on any and all versions of the Magento platform.</description>
+    <notes>Updated </notes>
+    <authors><author><name>eGlobe IT Solutions</name><user>egits</user><email>hello@eglobeits.com</email></author></authors>
+    <date>2015-03-13</date>
+    <time>11:45:56</time>
+    <contents><target name="magecommunity"><dir name="Egits"><dir name="GoogleTagManager"><dir name="Block"><file name="Remarketing.php" hash="9d13022b9c97821b7502f29e4410baa4"/><file name="Tag.php" hash="85e774cd1a769430eccb7d2840d5d789"/><file name="Transactions.php" hash="b9e36d89028866b52d1f9779d04b7919"/></dir><dir name="Helper"><file name="Data.php" hash="a89acf85f0f2374ddda1c0bffe432959"/></dir><dir name="etc"><file name="adminhtml.xml" hash="27a090b5950082163de029d90ae8b58d"/><file name="config.xml" hash="3969bcf45ec8362f84ac33c39c3f21b3"/><file name="system.xml" hash="646713564fac097ca45b49d5f5035edb"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="egits_googletagmanager.xml" hash="a9f171ffcc49fd7d1f6c518f39ebf9fc"/></dir><dir name="template"><dir name="egits"><dir name="googletagmanager"><file name="container.phtml" hash="53411284d4ed4510ce351451b2fabe3b"/><file name="remarketing-data.phtml" hash="1335791b9dd2eb372c745d0d037d4d16"/><file name="tranaction-data.phtml" hash="d5141a99505d15ea978b5b8cd7931b51"/></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Egits_GoogleTagManager.xml" hash="b38fbf1f5fcf06bf1de3dc64b581b56e"/></dir></target><target name="mageweb"><dir name="."><file name="LICENSE.txt" hash="a0ee912fd64f8ac619025272a61bf520"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>1.5.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
